@@ -10,7 +10,6 @@ import {
   Nav,
 } from "react-bootstrap";
 import axios from "axios";
-import "../css/styleHome.css";
 const Home = () => {
   const [peliculas, setPeliculas] = useState([]);
   const [busqueda, setBusqueda] = useState("");
